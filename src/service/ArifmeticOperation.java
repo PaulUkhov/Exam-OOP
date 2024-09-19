@@ -1,5 +1,5 @@
 package service;
-// Методы для арифметических операций
+//Арифметические операции, взаимодейтсвие между элементами
 public class ArifmeticOperation implements calcBihavior {
 
     @Override
