@@ -2,8 +2,7 @@ package service;
 
 import java.util.logging.Logger;
 
-
-
+//Воспроизводит последовательность и логику работы между элементами 
 public class CheckOperand  extends ArifmeticOperation implements checkOperation {
 
     public static final Logger logger = Logger.getLogger(CheckOperand.class.getName());
