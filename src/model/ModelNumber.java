@@ -1,6 +1,6 @@
 package model;
 
-public class ModelNumber {
+public abstract class ModelNumber {
     int number;
 
 }
