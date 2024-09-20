@@ -1,16 +1,16 @@
 package model;
 
-public class NextNumber extends ModelNumber{
-    private int nextNumber;
-    public NextNumber() {
+public class Number extends ModelNumber{
+    private doble number;
+    public Number() {
         super();
     }
 
-    public NextNumber(int nextNumber) {
-        this.nextNumber = nextNumber;
+    public Number(int number) {
+        this.Number = number;
     }
 
-    public int getNextNumber() {
-        return nextNumber;
+    public int getNumber() {
+        return getNumber;
     }
 }
