@@ -12,10 +12,10 @@ public class GetOperand implements getOperations {
             String input = scanner.nextLine().trim(); // Чтение строки и удаление лишних пробелов
             if (input.length() == 1) {
                 operation = input.charAt(0);
-                if (operation == '+' || operation == '-' || operation == '*' || operation == '/' || operation == '=') {
+                if (operation == '+' ||  operation == '*' || operation == '/' || operation == '=') {
                     break;
                 } else {
-                    System.out.println("Ошибка: введите корректный оператор (+, -, *, /) или =.");
+                    System.out.println("Ошибка: введите корректный оператор (+, *, /) или =.");
                 }
             } else {
                 System.out.println("Ошибка: введите один символ.");
