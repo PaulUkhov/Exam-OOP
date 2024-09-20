@@ -2,9 +2,9 @@ package service;
 
 import java.util.Scanner;
 
-public class GetOperand {
+public class GetOperand implements getOperations {
     // Метод для получения и проверки оператора
-    private static char getOperation(String prompt) {
+    public char getOperation(String prompt) {
         Scanner scanner = new Scanner(System.in);
         char operation;
         while (true) {
